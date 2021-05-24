@@ -259,9 +259,36 @@
     <article id="post-尚硅谷01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/">java基础01</a>
+    </h1>
+  
+
+        <!--显示阅读次数-->
+
+<!--显示阅读次数完毕-->
+        
+        <a href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/" class="archive-article-date">
+  	<time datetime="2021-05-22T06:37:46.208Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-22</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="java基础01"><a href="#java基础01" class="headerlink" title="java基础01"></a>java基础01</h1><p>API application programming interface应用程序接口，是Java提供的基本程序接口</p>
+<h1 id="java基础总学习路线："><a href="#java基础总学习路线：" class="headerlink" title="java基础总学习路线："></a>java基础总学习路线：</h1><h2 id="基础程序设计：关键字、数据类型、运算符、流程控制、数组-gt-排序算法、数据结构"><a href="#基础程序设计：关键字、数据类型、运算符、流程控制、数组-gt-排序算法、数据结构" class="headerlink" title="基础程序设计：关键字、数据类型、运算符、流程控制、数组-&gt;排序算法、数据结构"></a>基础程序设计：关键字、数据类型、运算符、流程控制、数组-&gt;排序算法、数据结构</h2><h2 id="面向对象编程：类-对象，类的结构、三大特性、接口、设计模式———–-gt-java新特性———-gt-泛型、元注解、装箱、拆箱、枚举、可变参数、lambda表达式、stream-API、data-time-API"><a href="#面向对象编程：类-对象，类的结构、三大特性、接口、设计模式———–-gt-java新特性———-gt-泛型、元注解、装箱、拆箱、枚举、可变参数、lambda表达式、stream-API、data-time-API" class="headerlink" title="面向对象编程：类/对象，类的结构、三大特性、接口、设计模式———–&gt;java新特性———-&gt;泛型、元注解、装箱、拆箱、枚举、可变参数、lambda表达式、stream API、data/time API"></a>面向对象编程：类/对象，类的结构、三大特性、接口、设计模式———–&gt;java新特性———-&gt;泛型、元注解、装箱、拆箱、枚举、可变参数、lambda表达式、stream API、data/time API</h2><h2 id="应用程序开发：jdbc、集合、io-nio、类库、多线程、异常处理、反射、网络——-gt-oracle-mysql"><a href="#应用程序开发：jdbc、集合、io-nio、类库、多线程、异常处理、反射、网络——-gt-oracle-mysql" class="headerlink" title="应用程序开发：jdbc、集合、io/nio、类库、多线程、异常处理、反射、网络——&gt;oracle\mysql"></a>应用程序开发：jdbc、集合、io/nio、类库、多线程、异常处理、反射、网络——&gt;oracle\mysql</h2><h3 id="紧跟项目实战"><a href="#紧跟项目实战" class="headerlink" title="紧跟项目实战"></a>紧跟项目实战</h3><p>项目一：家庭收支记账软件  讲完流程控制，可以做，第二章结束<br>二：客户信息管理软件  讲完第四章面向对象（上），可以做<br>三：讲完第七章异常处理以后，可以做</p>
+<p>附加一：银行业务管理软件   讲完第七章异常处理以后，可以做<br>附加二：单机考试管理系统   讲完第十一章io流以后，可以做 </p>
+<p>JDK = jre + 开发工具集<br>JRE = JVM + Javase标准类库</p>
+<h2 id="1-数据类型"><a href="#1-数据类型" class="headerlink" title="1.数据类型"></a>1.数据类型</h2><p>计算机储存设备的最小信息单位是bit，简写为b<br>计算机中最小存储单位是byte，简写为B，一字节是由连续的8个位组成的<br>1 B = 8 bit<br>1 KB = 1024B<br>。。。</p>
+<p>数据类型分为基本数据类型和引用数据类型<br>基本数据类型有：数值型和非数值型           内存占用<br>            数值型有： 整数：byte           1<br>                           short           2<br>                           int             4<br>                           long            8<br>                      浮点数：float         4<br>                            double         8<br>                      字符：char           2<br>            非数值型有： 布尔：Boolean      1        ture/false<br>引用数据类型有： 类：class<br>               接口：interface<br>               数组：【】</p>
+<h2 id="2-类型装换"><a href="#2-类型装换" class="headerlink" title="2.类型装换"></a>2.类型装换</h2><h2 id="自动类型转换："><a href="#自动类型转换：" class="headerlink" title="自动类型转换："></a>自动类型转换：</h2><p>范围从小到大都可以<br>byte、short、char -&gt;int -&gt;long -&gt; float -&gt;double</p>
+<h2 id="强制类型转换："><a href="#强制类型转换：" class="headerlink" title="强制类型转换："></a>强制类型转换：</h2><p> 把范围大的数转化为范围小的数<br> 目标数据类型  变量名  =  （目标数据类型）值或变量；<br> int k = (int)88.88;</p>
+<h2 id="java中的名称命名规范"><a href="#java中的名称命名规范" class="headerlink" title="java中的名称命名规范"></a>java中的名称命名规范</h2><p>包名：  多单词组成所有字母都小写    xxxyyyzzz<br>类名、接口名：  多单词组成时，所有单词的首字母大写  XxxYyyZzz<br>变量名、方法名：    多单词组成，第一个单词首字母小写，第二个单词开始首字母大写  xxxYyyZzz<br>常量名：    所有字母大写，多单词时用下划线连接  XXX_YYY_ZZZ</p>
+
       
 
       
@@ -305,6 +332,24 @@
   
     <article id="post-springboot_01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/05/22/springboot_01/">springboot核心方法及代码</a>
+    </h1>
+  
+
+        <!--显示阅读次数-->
+
+<!--显示阅读次数完毕-->
+        
+        <a href="/2021/05/22/springboot_01/" class="archive-article-date">
+  	<time datetime="2021-05-22T06:13:46.743Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-22</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
