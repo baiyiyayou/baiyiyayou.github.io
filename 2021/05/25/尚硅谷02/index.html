@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>java基础02 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="Java基础02位运算符你能否写出最高效的2*8的实现方式2 &lt;&lt; 3 或 8 &lt;&lt; 1特别说明的：&lt;&lt;在一定范围内，每向左移一位，相当于 *2:&gt;&gt; 在一定范围内，没向右移一位，相当于 &#x2F;2 Java基础71-140集">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java基础02">
+<meta property="og:url" content="http://example.com/2021/05/25/%E5%B0%9A%E7%A1%85%E8%B0%B702/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Java基础02位运算符你能否写出最高效的2*8的实现方式2 &lt;&lt; 3 或 8 &lt;&lt; 1特别说明的：&lt;&lt;在一定范围内，每向左移一位，相当于 *2:&gt;&gt; 在一定范围内，没向右移一位，相当于 &#x2F;2 Java基础71-140集">
 <meta property="og:locale">
+<meta property="article:published_time" content="2021-05-25T01:50:35.258Z">
+<meta property="article:modified_time" content="2021-05-26T14:28:02.382Z">
 <meta property="article:author" content="sapeipei">
+<meta property="article:tag" content="Java基础">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -161,202 +166,26 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+<article id="post-尚硅谷02" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/07/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      java基础02
     </h1>
   
 
         <!--显示阅读次数-->
 
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/03/07/hello-world/" class="archive-article-date">
-  	<time datetime="2021-03-07T14:47:58.922Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-07</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-        <div class="article-pop-out tagcloud">
-          <i class="icon-tuding"></i>
-          <a class="article-tag-list-link color3">置顶</a>
-        </div>
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/07/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-尚硅谷03" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/26/%E5%B0%9A%E7%A1%85%E8%B0%B703/">基础循环</a>
-    </h1>
-  
-
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/05/26/%E5%B0%9A%E7%A1%85%E8%B0%B703/" class="archive-article-date">
-  	<time datetime="2021-05-26T13:51:43.747Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-26</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="基础循环"><a href="#基础循环" class="headerlink" title="基础循环"></a>基础循环</h1><h2 id="if-else"><a href="#if-else" class="headerlink" title="if else"></a>if else</h2><p>//int a = 3;<br>//int x = 100;<br>//if(a==1)x+=5;<br>//else if(a==2)x+=10;<br>//else if(a==3)x+=16;<br>//else x += 34;</p>
-<h2 id="改成switch-case"><a href="#改成switch-case" class="headerlink" title="改成switch case"></a>改成switch case</h2><p>int a = 3;<br>int x = 100;<br>switch(a){<br>case 1:<br>    x+=5;<br>case 2:<br>    x+=10;<br>case 3:<br>    x+=16;<br>default:<br>    x+=34;<br>    //break;<br>}</p>
-<p>计算100内的奇数，并计算所有奇数的和并输出<br>int sum;<br>for(int i=1; i&lt;=100; i++){<br>    if(i/2 != 0){<br>        system.out.print(i);<br>    }<br>    sum += i;<br>}<br>system.out.printin(sum);</p>
-<h2 id="break-continue"><a href="#break-continue" class="headerlink" title="break continue"></a>break continue</h2><pre><code>                    不同点          相同点
-</code></pre>
-<p>break只在switch-case中  结束当前循环    关键字后面不能声明执行语句      结束指定标示的一层循环结构<br>continue在循环结构中     结束当次循环    关键字后面不能声明执行语句     结束指定标示的一层循环结构当次循环</p>
-<p>class BreakContinueTest {<br>    pscm{<br>        for(int i=1; i&lt;= 10; i++&gt;){<br>            if(i % 4 == 0){<br>                //break;    123<br>                continue;   123567910<br>            }<br>            sout(i);<br>        }<br>    }<br>}</p>
-<h2 id="return"><a href="#return" class="headerlink" title="return"></a>return</h2><p>并非专门用于结束循环的，他的功能是结束一个方法。当一个方法执行到一个return时，这个方法将被结束。<br>与break和continue不同的是，return直接结束整个方法，不管这个return处于多少层之中</p>
-<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><h2 id="一维数组初始化的两种方法"><a href="#一维数组初始化的两种方法" class="headerlink" title="一维数组初始化的两种方法"></a>一维数组初始化的两种方法</h2><p>int[] arr = new int [5];    //动态初始化</p>
-<p>string[] arr = new string []{“1”,”2”,”3”,”4”,”5”};  //静态初始化，一旦初始化就无法修改，因为数组是连续存储的</p>
-<h2 id="二维数组初始化的两种方法"><a href="#二维数组初始化的两种方法" class="headerlink" title="二维数组初始化的两种方法"></a>二维数组初始化的两种方法</h2><p>int [][] = new int [4][3];</p>
-<p>int [][] = new int [4][];</p>
-<p>Java基础141-210集</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">基础循环</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/05/26/%E5%B0%9A%E7%A1%85%E8%B0%B703/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-尚硅谷02" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/25/%E5%B0%9A%E7%A1%85%E8%B0%B702/">java基础02</a>
-    </h1>
-  
-
-        <!--显示阅读次数-->
+  <br/>
+  <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+  <span class="icon-sort"></span>
+  <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+            阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+  </span>
+  </a>
 
 <!--显示阅读次数完毕-->
         
@@ -374,94 +203,36 @@
       
 
       
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Java基础</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/05/25/%E5%B0%9A%E7%A1%85%E8%B0%B702/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/alipay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/wechat.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-尚硅谷01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/">java基础01</a>
-    </h1>
-  
-
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/" class="archive-article-date">
-  	<time datetime="2021-05-22T06:37:46.208Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="java基础01"><a href="#java基础01" class="headerlink" title="java基础01"></a>java基础01</h1><p>API application programming interface应用程序接口，是Java提供的基本程序接口</p>
-<h1 id="java基础总学习路线："><a href="#java基础总学习路线：" class="headerlink" title="java基础总学习路线："></a>java基础总学习路线：</h1><h2 id="基础程序设计："><a href="#基础程序设计：" class="headerlink" title="基础程序设计："></a>基础程序设计：</h2><p>关键字、数据类型、运算符、流程控制、数组-&gt;排序算法、数据结构</p>
-<h2 id="面向对象编程："><a href="#面向对象编程：" class="headerlink" title="面向对象编程："></a>面向对象编程：</h2><p>类/对象，类的结构、三大特性、接口、设计模式———–&gt;java新特性———-&gt;泛型、元注解、装箱、拆箱、枚举、可变参数、lambda表达式、stream API、data/time API</p>
-<h2 id="应用程序开发："><a href="#应用程序开发：" class="headerlink" title="应用程序开发："></a>应用程序开发：</h2><p>jdbc、集合、io/nio、类库、多线程、异常处理、反射、网络——&gt;oracle\mysql</p>
-<h3 id="紧跟项目实战"><a href="#紧跟项目实战" class="headerlink" title="紧跟项目实战"></a>紧跟项目实战</h3><p>项目一：家庭收支记账软件  讲完流程控制，可以做，第二章结束<br>二：客户信息管理软件  讲完第四章面向对象（上），可以做<br>三：讲完第七章异常处理以后，可以做</p>
-<p>附加一：银行业务管理软件   讲完第七章异常处理以后，可以做<br>附加二：单机考试管理系统   讲完第十一章io流以后，可以做 </p>
-<p>JDK = jre + 开发工具集<br>JRE = JVM + Javase标准类库</p>
-<h2 id="1-数据类型"><a href="#1-数据类型" class="headerlink" title="1.数据类型"></a>1.数据类型</h2><p>计算机储存设备的最小信息单位是bit，简写为b<br>计算机中最小存储单位是byte，简写为B，一字节是由连续的8个位组成的<br>1 B = 8 bit<br>1 KB = 1024B<br>。。。</p>
-<p>数据类型分为基本数据类型和引用数据类型<br>基本数据类型有：数值型和非数值型           内存占用<br>            数值型有： 整数：byte           1<br>                           short           2<br>                           int             4<br>                           long            8<br>                      浮点数：float         4<br>                            double         8<br>                      字符：char           2<br>            非数值型有： 布尔：Boolean      1        ture/false<br>引用数据类型有： 类：class<br>               接口：interface<br>               数组：【】</p>
-<h2 id="2-类型装换"><a href="#2-类型装换" class="headerlink" title="2.类型装换"></a>2.类型装换</h2><h2 id="自动类型转换："><a href="#自动类型转换：" class="headerlink" title="自动类型转换："></a>自动类型转换：</h2><p>范围从小到大都可以<br>byte、short、char -&gt;int -&gt;long -&gt; float -&gt;double</p>
-<h2 id="强制类型转换："><a href="#强制类型转换：" class="headerlink" title="强制类型转换："></a>强制类型转换：</h2><p> 把范围大的数转化为范围小的数<br> 目标数据类型  变量名  =  （目标数据类型）值或变量；<br> int k = (int)88.88;</p>
-<h2 id="java中的名称命名规范"><a href="#java中的名称命名规范" class="headerlink" title="java中的名称命名规范"></a>java中的名称命名规范</h2><p>包名：  多单词组成所有字母都小写    xxxyyyzzz<br>类名、接口名：  多单词组成时，所有单词的首字母大写  XxxYyyZzz<br>变量名、方法名：    多单词组成，第一个单词首字母小写，第二个单词开始首字母大写  xxxYyyZzz<br>常量名：    所有字母大写，多单词时用下划线连接  XXX_YYY_ZZZ</p>
-<p>Java基础1-70集</p>
-
-      
-
       
     </div>
     <div class="article-info article-info-index">
@@ -481,16 +252,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=baiyiyayou.github.io021/05/25/%E5%B0%9A%E7%A1%85%E8%B0%B702/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2021/05/26/%E5%B0%9A%E7%A1%85%E8%B0%B703/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          基础循环
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/05/22/%E5%B0%9A%E7%A1%85%E8%B0%B701/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">java基础01</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -505,389 +344,32 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-springboot_01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/05/22/springboot_01/">springboot核心方法及代码</a>
-    </h1>
-  
-
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/05/22/springboot_01/" class="archive-article-date">
-  	<time datetime="2021-05-22T06:13:46.743Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-22</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="springboot核心方法及代码"><a href="#springboot核心方法及代码" class="headerlink" title="springboot核心方法及代码"></a>springboot核心方法及代码</h1><h2 id="springboot核心方法"><a href="#springboot核心方法" class="headerlink" title="springboot核心方法"></a>springboot核心方法</h2><p>学习springboot源码就是学习这个方法，所有的实例化bean的创建都要进入到这个类<br>包括我们的bean工程在初始化之前要做什么事情，包括BeanFactory\BeanPostProcessors\都和bean实例化相关<br>public void refresh() throws BeansException, IllegalStateException {<br>        synchronized(this.startupShutdownMonitor) {<br>            this.prepareRefresh();<br>            ConfigurableListableBeanFactory beanFactory = this.obtainFreshBeanFactory();<br>            this.prepareBeanFactory(beanFactory);</p>
-<pre><code>        try &#123;
-            this.postProcessBeanFactory(beanFactory);
-            this.invokeBeanFactoryPostProcessors(beanFactory);
-            this.registerBeanPostProcessors(beanFactory);
-            this.initMessageSource();
-            this.initApplicationEventMulticaster();
-            this.onRefresh();
-            this.registerListeners();
-            this.finishBeanFactoryInitialization(beanFactory);
-            this.finishRefresh();
-        &#125; catch (BeansException var9) &#123;
-            if (this.logger.isWarnEnabled()) &#123;
-                this.logger.warn(&quot;Exception encountered during context initialization - cancelling refresh attempt: &quot; + var9);
-            &#125;
-
-            this.destroyBeans();
-            this.cancelRefresh(var9);
-            throw var9;
-        &#125; finally &#123;
-            this.resetCommonCaches();
-        &#125;
-
-    &#125;
-&#125;
-</code></pre>
-<p>当我们需要使用springboot、springmvc时，就需要对这个方法进行重写，因为里面的一些bean实现是不一样的<br> protected void onRefresh() throws BeansException {<br>    }</p>
-<p>Tomcat  实现了  servlet  标准</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/05/22/springboot_01/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Java%E5%9F%BA%E7%A1%8002"><span class="toc-number">1.</span> <span class="toc-text">Java基础02</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.1.</span> <span class="toc-text">位运算符</span></a></li></ol></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
-
   
-    <article id="post-前端_01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="前端-day01"><a href="#前端-day01" class="headerlink" title="前端_day01"></a>前端_day01</h1><blockquote>
-<p>黑马程序员pink老师前端入门教程，零基础必看的h5(html5)+css3+web前端视频<br>基础班目标：精通网页布局，为JS打基础</p>
-</blockquote>
-<h2 id="HTML5"><a href="#HTML5" class="headerlink" title="HTML5"></a>HTML5</h2><p>课时:20%  内容:没有兼容性的HTML标签，硬记</p>
-<h2 id="CSS3"><a href="#CSS3" class="headerlink" title="CSS3"></a>CSS3</h2><p>课时：50% 内容：学习常用的没有兼容性的CSS样式，利用前面学习的的标签完成传统PC端网页制作 案例：传统企业网页制作</p>
-<h2 id="H5C3提高"><a href="#H5C3提高" class="headerlink" title="H5C3提高"></a>H5C3提高</h2><p>课时10% 内容：HTML新增的标签，CSS3样式，具备一定的兼容性，与未来更好的接轨</p>
-<h2 id="项目-品优购电商网站"><a href="#项目-品优购电商网站" class="headerlink" title="项目-品优购电商网站"></a>项目-品优购电商网站</h2><p>课时：20% 内容：做出基础企业及开发</p>
-<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h2 id="网页"><a href="#网页" class="headerlink" title="网页"></a>网页</h2><p>网站的一页 就是一个HTML文件</p>
-<h2 id="HTML-1"><a href="#HTML-1" class="headerlink" title="HTML"></a>HTML</h2><p>超文本标记语言，hyper text marker language，专门制作网页，由各种标签组成</p>
-<h2 id="超文本标记语言"><a href="#超文本标记语言" class="headerlink" title="超文本标记语言"></a>超文本标记语言</h2><p>1.可以加入图片、声音、动画、多媒体等不仅仅是文本<br>2.可以从一个文件跳转到另一个文件，超级链接文本</p>
-<h1 id="常用浏览器"><a href="#常用浏览器" class="headerlink" title="常用浏览器"></a>常用浏览器</h1><h2 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h2><p>内核：Blink，国内浏览器一般都是Blink、webkit等内核</p>
-<h1 id="web标准-（重点）"><a href="#web标准-（重点）" class="headerlink" title="web标准 （重点）"></a>web标准 （重点）</h1><p>W3C和其它标准化组织指定的一系列标准的集合</p>
-<h1 id="1-为什么需要web标准"><a href="#1-为什么需要web标准" class="headerlink" title="1.为什么需要web标准"></a>1.为什么需要web标准</h1><p>1.1浏览器不同，显示页面的排版就会有些许差异，标准的话就能解决很多问题</p>
-<h1 id="2-web标准的构成"><a href="#2-web标准的构成" class="headerlink" title="2.web标准的构成"></a>2.web标准的构成</h1><p>结构：对网页元素整理和分类，即HTML<br>表现：设置网页的板式、颜色大小和外观样式，主要是指CSS<br>行为：网页模式的定义以及交互式的编写，现阶段主要是JS</p>
-<p>web标准提出的最佳体验方案：结构、样式、行为相分离，结构写到HTML中。。。</p>
-<p>结构类似身体、表现类似外观复试、行为类似行为动作  表现和行为会让你更好看，但是结构最重要</p>
-<h1 id="HTML标签（上）"><a href="#HTML标签（上）" class="headerlink" title="HTML标签（上）"></a>HTML标签（上）</h1><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>1.书写规范<br>2.HTML骨架标签<br>3.超链接标签<br>4.图片标签，并说出Alt和title的区别  alt是替换文本，当图片失效时会出现   title是提示文本，当鼠标悬停时，会出现提示语<br>5，相对路径的三种形式</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/05/21/%E5%89%8D%E7%AB%AF_01/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="post-my java&#39;s root day2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/24/my%20java's%20root%20day2/">my java&#39;s root day2</a>
-    </h1>
   
 
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/03/24/my%20java's%20root%20day2/" class="archive-article-date">
-  	<time datetime="2021-03-24T13:38:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="my-java’s-root-day2"><a href="#my-java’s-root-day2" class="headerlink" title="my java’s root day2"></a>my java’s root day2</h1><h2 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1.标识符"></a>1.标识符</h2><p>小驼峰命名法：针对于方法和变量      一个单词时：首字母小写  多个单词时：首字母小写，其他单词首字母大写<br>大驼峰命名法：针对于类            一个单词首字母大写，多个单词首字母大写</p>
-<h2 id="2-类型转换"><a href="#2-类型转换" class="headerlink" title="2.类型转换"></a>2.类型转换</h2><p>自动类型转换： 范围从小到大都可以<br>强制类型转换： 把范围大的数转化为范围小的数<br> 目标数据类型  变量名  =  （目标数据类型）值或变量；<br> int k = (int)88.88;</p>
-<h2 id="3-数据输入"><a href="#3-数据输入" class="headerlink" title="3.数据输入:"></a>3.数据输入:</h2><p>3.1导包：import java.util.Scanner;<br>3.2创建对象：Scanner sc = new Scanner(System.in);<br>3.3接收数据：int x = sc.nextInt();</p>
-<h2 id="4-random"><a href="#4-random" class="headerlink" title="4.random"></a>4.random</h2><p>4.1导包:  import java.util.Random;<br>4.2创建对象:  Random r = new Random();<br>4.3接受数据:  int number = r.nextInt(10);//获取数据的范围，从0到9</p>
-<h2 id="5-IDEA中编写一个程序"><a href="#5-IDEA中编写一个程序" class="headerlink" title="5.IDEA中编写一个程序"></a>5.IDEA中编写一个程序</h2><p>5.1创建一个空项目<br>5.2创建一个空模块<br>5.3在idea_test模块下的src下创建一个包<br>5.4在com.itheima包下新建一个类<br>5.5在HelloWorld中编写代码<br>5.6在idea中执行程序</p>
-<h2 id="6-idea内容辅助和快捷键"><a href="#6-idea内容辅助和快捷键" class="headerlink" title="6.idea内容辅助和快捷键"></a>6.idea内容辅助和快捷键</h2><p>6.1快速生成main方法：psvm+回车<br>6.2快速生成输出语句： sout+回车<br>6.3内容提示，代码补全; ctrl+alt+空格</p>
-<h2 id="6-4快捷键："><a href="#6-4快捷键：" class="headerlink" title="6.4快捷键："></a>6.4快捷键：</h2><p>注释：单行注释选中内容  Ctrl+/，再按一次就是取消<br>      多行注释选中内容  Ctrl+shift+/，再按一次就是取消</p>
-<p>格式化： Ctrl+Alt+L</p>
-<h2 id="7-数组的定义"><a href="#7-数组的定义" class="headerlink" title="7.数组的定义"></a>7.数组的定义</h2><p>int[] arr = new int[3];<br>左边：一个名为arr的int类型的数组<br>右边：申请数组长度为3的int类型的数组</p>
-<h2 id="8-idea编程，参看idea项目"><a href="#8-idea编程，参看idea项目" class="headerlink" title="8.idea编程，参看idea项目"></a>8.idea编程，参看idea项目</h2>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/24/my%20java's%20root%20day2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-my-java-s-root day1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/24/my-java-s-root%20day1/">my java&#39;s root day1</a>
-    </h1>
   
 
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/03/24/my-java-s-root%20day1/" class="archive-article-date">
-  	<time datetime="2021-03-24T13:38:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="my-java’s-root-day1"><a href="#my-java’s-root-day1" class="headerlink" title="my java’s root day1"></a>my java’s root day1</h1><blockquote>
-<p>学习网站 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18J411W7cE?p=1">https://www.bilibili.com/video/BV18J411W7cE?p=1</a> 黑马程序员</p>
-</blockquote>
-<h2 id="1-java跨平台原理"><a href="#1-java跨平台原理" class="headerlink" title="1.java跨平台原理"></a>1.java跨平台原理</h2><p>平台：window、Linux、Mac<br>跨平台：可以在任何平台上运行<br>跨平台原理：在java和各种平台之中找一个翻译（JVM），之后就可以在各大平台上运行</p>
-<h2 id="2-jre和jdk"><a href="#2-jre和jdk" class="headerlink" title="2.jre和jdk"></a>2.jre和jdk</h2><p>jre:java runtime envirment<br>是java运行时的环境，包含JVM和必须的核心类库，保证java跨平台的特性</p>
-<p>JDK：java development kit<br>是java程序开发工具包，包含JRE和开发人员使用的工具<br>开发的工具有：编译工具（javac.exe）和运行工具（java.exe）<br>我们想开发一个全新的java程序，就必须使用JDK</p>
-<h2 id="3-环境变量的配置"><a href="#3-环境变量的配置" class="headerlink" title="3.环境变量的配置"></a>3.环境变量的配置</h2><p>3.1为什么要配置环境变量：更方便的使用javac和java这些命令，不配置的话就要一次一次打开<br>3.2怎么配置环境变量：我的电脑-&gt;高级系统设置-&gt;环境变量-&gt;系统变量新建一个JAVA_HOME变量名，再把安装路径复制下来-&gt;选中path变量，添加一个%JAVA_HOME%\bin 就配置完毕<br>3.3检测是否配置好环境变量：Windows+R键，输入cmd，输入javac，返回用法及配置成功</p>
-<h2 id="4-HelloWorld"><a href="#4-HelloWorld" class="headerlink" title="4.HelloWorld"></a>4.HelloWorld</h2><p>编写程序，编译程序，运行程序<br>4.1新建HelloWorld文档编写程序<br>public class HelloWorld{<br>    public static void main(String[] args){<br>        System.out.printin(“HelloWorld”);<br>    }<br>}<br>ctrl+s保存，之后后缀名改为.java<br>4.2Windows+R键，cmd，输入javac HelloWorld.java  这步是编译.java文件，就像是翻译，再输入java HelloWorld</p>
-<h2 id="5-Notepad软件的安装与配置"><a href="#5-Notepad软件的安装与配置" class="headerlink" title="5.Notepad软件的安装与配置"></a>5.Notepad软件的安装与配置</h2><p>傻瓜式安装</p>
-<h2 id="6-数据类型"><a href="#6-数据类型" class="headerlink" title="6.数据类型"></a>6.数据类型</h2><p>计算机储存设备的最小信息单位是bit，简写为b<br>计算机中最小存储单位是byte，简写为B，一字节是由连续的8个位组成的<br>1 B = 8 bit<br>1 KB = 1024B<br>。。。</p>
-<p>数据类型分为基本数据类型和引用数据类型<br>基本数据类型有：数值型和非数值型           内存占用<br>            数值型有： 整数：byte           1<br>                           short           2<br>                           int             4<br>                           long            8<br>                      浮点数：float         4<br>                            double         8<br>                      字符：char           2<br>            非数值型有： 布尔：Boolean      1        ture/false<br>引用数据类型有： 类：class<br>               接口：interface<br>               数组：【】</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=167786&auto=1&height=66"></iframe>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/24/my-java-s-root%20day1/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章</a>
-    </h1>
   
 
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/03/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2021-03-08T04:35:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="我的博客"><a href="#我的博客" class="headerlink" title="我的博客"></a>我的博客</h1>
-        
-          <a class="article-more-a" href="/2021/03/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
 
 
@@ -913,8 +395,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
