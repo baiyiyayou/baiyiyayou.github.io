@@ -162,14 +162,14 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-学习路线与总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/07/hello-world/">Hello World</a>
+      <a class="article-title" href="/2021/05/27/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E4%B8%8E%E6%80%BB%E7%BB%93/">java学习大路线与每天小结</a>
     </h1>
   
 
@@ -177,27 +177,362 @@
 
 <!--显示阅读次数完毕-->
         
-        <a href="/2021/03/07/hello-world/" class="archive-article-date">
-  	<time datetime="2021-03-07T14:47:58.922Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-07</time>
+        <a href="/2021/05/27/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E4%B8%8E%E6%80%BB%E7%BB%93/" class="archive-article-date">
+  	<time datetime="2021-05-27T02:35:08.932Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-27</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <h1 id="java学习大路线与每天小结"><a href="#java学习大路线与每天小结" class="headerlink" title="java学习大路线与每天小结"></a>java学习大路线与每天小结</h1><h2 id="学习大纲"><a href="#学习大纲" class="headerlink" title="学习大纲"></a>学习大纲</h2><p>Java学习完整路线就是解决学习不系统没方向感问题，程序汪总结就5个阶段<br>基础  （建议学习2-3个月）<br>工具   maven+git+idea<br>mysql   （2星期左右）<br>基础前端  （2星期左右）<br>框架  SSM+Springboot   （1到2个月左右）<br>项目  程序汪找的开源项目应该很香了  （2个月左右）<br>找工作面试阶段 （1周至1个月，如果3个月都找不到工作简历有大问题了）</p>
+<h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><p>建议学mysql就可以<br>存储过程建议了解，互联网公司都是禁止把代码写到存储过程到，但是有些传统公司偷懒也是用存储过程写业务<br>优化SQL是面试必问的</p>
+<h2 id="中间件"><a href="#中间件" class="headerlink" title="中间件"></a>中间件</h2><p>redis必学，高频面试<br>消息中间件学一个就可以,推荐RabbitMQ</p>
+<h2 id="关于学习微服务"><a href="#关于学习微服务" class="headerlink" title="关于学习微服务"></a>关于学习微服务</h2><p>互联网公司喜欢问微服务，程序汪建议可以学阿里的dubbo框架,<br>有能力可以再学下springcloud<br>包装微服务项目经验，程序汪不建议 因为 真实的微服务项目很复杂的，包装了你也讲不清楚啊<br>互联网公司面试是比较爱问微服务，准备下这方面的项目面试会加分</p>
+<h2 id="根据自身定位了解"><a href="#根据自身定位了解" class="headerlink" title="根据自身定位了解"></a>根据自身定位了解</h2><p>Java学习知识点蛮多的，程序汪整理里很多，但是有些部分了解就行，实际工作用到非常少<br>Java Swing 图形界面开发 ，基本可以跳过这块知识点里<br>IO流（一般难）里面API非常多，基本文件读写学会就可以，不用把所有API都学会<br>反射（比较难），其实反射基本API了解就可以，开发框架反射用的很多，实际业务开发代码用的很少，如果你要深耕源码 那反射必须学深点<br>网络编程（很难），其实一本业务开发网络编程这块涉及比较少，学好非常难，建议小白们可以跳过，如果你要深耕源码 ，那请你啃下去<br>多线程（比较难），互联网业务真的会用到，但一般公司很少用多线程，因为他们数据量非常少，如果你要去互联网公司必须把多线程研究深点点<br>前端，如果你自己定位是全栈 前端的基本知识点肯定要会，大公司都流行前后端分离了，后端就只搞后端，前端基本了解就可以，目前vue用的比较多</p>
+<h1 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h1><ol>
+<li>Java语言的发展史</li>
+<li>JDK的下载和安装</li>
+<li>DOS命令的介绍和使用</li>
+<li>Path环境变量的配置</li>
+<li>第一个代码HelloWorld案例</li>
+<li>NotePad++软件的安装和使用</li>
+<li>Java中的数据类型</li>
+<li>常量的使用</li>
+<li>变量的定义与使用</li>
+<li>Java中代码的书写规范</li>
+<li>数据类型之间的转换</li>
+<li>Java中的各种运算符操作</li>
+<li>if分支语句的灵活使用</li>
+<li>switch分支语句</li>
+<li>for循环结构</li>
+<li>while循环结构</li>
+<li>do..while循环结构</li>
+<li>各种循环语句的区别和应用场景 </li>
+<li>循环跳转控制语句</li>
+<li>嵌套循环的应用</li>
+<li>使用循环嵌套打印直角三角形</li>
+<li>IDEA开发软件</li>
+<li>数组的动态初始化</li>
+<li>数组的访问格式|</li>
+<li>数组的静态初始化</li>
+<li>Java的内存划分和作用</li>
+<li>分析数组在内存中的存储</li>
+<li>方法的定义和调用</li>
+<li>方法的参数和返回值问题 </li>
+<li>方法的重载(Overload)</li>
+<li>参数是基本类型和引用类型的区别</li>
+<li>Debug断点调试的使用</li>
+</ol>
+<h1 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h1><ol>
+<li>类和对象的概述</li>
+<li>分析对象在内存中的存储</li>
+<li>成员变量和局部变量的区别</li>
+<li>private关键字的应用</li>
+<li>this关键字的应用</li>
+<li>this关键字的内存原理</li>
+<li>面向对象特性之封装</li>
+<li>构造方法(Constructor)</li>
+<li>构造方法的注意事项</li>
+<li>标准类的定义规范<br>03、API基础</li>
+<li>API的使用方式</li>
+<li>String类的特点</li>
+<li>String类的常用构造方法</li>
+<li>字符串的比较规则</li>
+<li>用户登录的案例</li>
+<li>遍历字符串的方式</li>
+<li>字符串的拼接</li>
+<li>字符串的反转操作</li>
+<li>StringBuilder类的作用</li>
+<li>StringBuilder类的构造方法</li>
+<li>StringBuilder类的常用方法</li>
+<li>用StringBuilder完成字符串拼接和反转<br>04、集合基础</li>
+<li>ArrayList集合的特点</li>
+<li>ArrayList的构造方法</li>
+<li>ArrayList的常用操作</li>
+<li>集合存储自定义类型并遍历</li>
+</ol>
+<h1 id="基础-1"><a href="#基础-1" class="headerlink" title="基础"></a>基础</h1><ol>
+<li><p>面向对象特性之继承</p>
+</li>
+<li><p>继承的好处和弊端</p>
+</li>
+<li><p>super关键字的作用</p>
+</li>
+<li><p>继承时子父类的访问特点</p>
+</li>
+<li><p>方法的重写(Override)</p>
+</li>
+<li><p>package关键字的作用</p>
+</li>
+<li><p>import关键字的作用</p>
+</li>
+<li><p>final关键字的作用</p>
+</li>
+<li><p>static关键字的作用</p>
+</li>
+<li><p>static关键字内存分析</p>
+</li>
+<li><p>面向对象特性之多态</p>
+</li>
+<li><p>多态的好处和弊端</p>
+</li>
+<li><p>多态中成员访问的特点</p>
+</li>
+<li><p>多态中的数据类型转型</p>
+</li>
+<li><p>instanceof关键字的使用</p>
+</li>
+<li><p>抽象类的特点</p>
+</li>
+<li><p>抽象类的成员特点</p>
+</li>
+<li><p>模板设计模式</p>
+</li>
+<li><p>接口的概述</p>
+</li>
+<li><p>接口的特点和注意事项</p>
+</li>
+<li><p>类、抽象类、接口之间的关系</p>
+</li>
+<li><p>内部类的概述</p>
+</li>
+<li><p>成员内部类的使用</p>
+</li>
+<li><p>局部内部类的使用</p>
+</li>
+<li><p>匿名内部类的使用</p>
+</li>
+<li><p>匿名内部类在开发中的应用</p>
+</li>
+<li><p>Math类及其常用方法</p>
+</li>
+<li><p>System类及其常用方法</p>
+</li>
+<li><p>Object类的toString()和equals()方法</p>
+</li>
+<li><p>Objects类以及常用方法</p>
+</li>
+<li><p>BigDecimal类及其常用方法</p>
+</li>
+<li><p>二分查找原理以及代码实现</p>
+</li>
+<li><p>冒泡排序的原理分析及代码实现</p>
+</li>
+<li><p>递归的应用和注意事项</p>
+</li>
+<li><p>快速排序原理以及代码实现</p>
+</li>
+<li><p>jar包的制作以及使用</p>
+</li>
+<li><p>Arrays类及其常用方法</p>
+</li>
+<li><p>基本类型的包装类</p>
+</li>
+<li><p>自动拆箱和自动装箱</p>
+</li>
+<li><p>Optional类以及使用</p>
+</li>
+<li><p>ProcessBuilder类以及使用</p>
+</li>
+<li><p>日期Date类型及其常用方法</p>
+</li>
+<li><p>日期格式化类SimpleDateFormat</p>
+</li>
+<li><p>日历Calendar类的使用</p>
+</li>
+<li><p>Jdk8新增的日期Date API（Local￾DateTime，LocalDate，LocalTime，<br>Instant，Period，Duration）</p>
+</li>
+<li><p>NumberFormat类以及使用</p>
+</li>
+<li><p>异常的概述</p>
+</li>
+<li><p>JVM默认处理异常的方式</p>
+</li>
+<li><p>异常处理方式之try..catch</p>
+</li>
+<li><p>异常处理方式之throws</p>
+</li>
+<li><p>Throwable的常用方法</p>
+</li>
+<li><p>异常的分类和区别</p>
+</li>
+<li><p>异常的注意事项</p>
+</li>
+<li><p>自定义异常的使用</p>
+</li>
+</ol>
+<p>04、集合<br>06、多线程</p>
+<ol>
+<li>集合体系结构</li>
+<li>单列集合体系的详细讲解</li>
+<li>迭代器的使用</li>
+<li>增强for循环的使用</li>
+<li>forEach方法遍历</li>
+<li>并发修改异常的产生原因和解决办法</li>
+<li>数据结构之栈和队列</li>
+<li>数据结构之数组和链表</li>
+<li>ArrayList集合源码分析</li>
+<li>LinkedList集合源码分析</li>
+<li>双列集合体系的详细讲解</li>
+<li>Map集合的遍历方式</li>
+<li>TreeSet的自然排序和比较器排序</li>
+<li>数据结构之树</li>
+<li>数据结构之二叉树</li>
+<li>数据结构之二叉平衡树</li>
+<li>数据结构之红黑树</li>
+<li>TreeSet(TreeMap)底层源码分析</li>
+<li>数据结构之哈希表</li>
+<li>Jdk1.7中HashSet(HashMap)源码分析</li>
+<li>Jdk1.8中HashSet(HashMap)源码分析</li>
+<li>泛型的使用</li>
+<li>泛型通配符的使用</li>
+<li>可变参数的使用和注意事项<br>05、IO</li>
+<li>File类对文件的操作</li>
+<li>IO流的概述和分类</li>
+<li>字节流写数据的方式</li>
+<li>FileOutputStream和BufferedOutput￾Stream源码分析</li>
+<li>字节流读数据的方式</li>
+<li>FileInputStream和BufferedInput￾Stream源码分析</li>
+<li>字节流完成视频文件的复制</li>
+<li>编码表</li>
+<li>字符流写数据的方法</li>
+<li>字符串读数据的方法</li>
+<li>字符缓冲流的使用</li>
+<li>字符缓冲流的特有方法</li>
+<li>标准输入输出流</li>
+<li>打印流的使用</li>
+<li>对象序列化流</li>
+<li>serialVersionUID&amp;transient</li>
+<li>进程和线程的区别</li>
+<li>Java实现多线程的三种方式</li>
+<li>线程API之线程名称</li>
+<li>线程API之线程休眠</li>
+<li>线程API之线程礼让</li>
+<li>线程API之线程优先级</li>
+<li>线程API之线程中断</li>
+<li>线程API之后天线程</li>
+<li>线程的安全问题</li>
+<li>同步代码块</li>
+<li>同步方法</li>
+<li>Lock锁</li>
+<li>死锁概述以及现象演示</li>
+<li>死锁诊断(jstack工具的使用)</li>
+<li>线程通讯之生产者消费者问题</li>
+<li>线程通讯代码实现之同步代码块</li>
+<li>线程通讯代码实现之Condition实现<br>通信</li>
+<li>线程通讯代码实现之阻塞队列<br>(BlockingQueue)实现</li>
+<li>线程的状态</li>
+<li>线程池概述</li>
+<li>自定义线程池</li>
+<li>Executors创建线程池</li>
+<li>ThreadPoolExecutor创建线程池</li>
+<li>ThreadPoolExecutor原理介绍以及<br>任务拒绝策略介绍</li>
+<li>volatile关键字</li>
+<li>JMM内存模型</li>
+<li>原子性概述</li>
+<li>原子类AtomicInteger类的使用</li>
+<li>CAS算法</li>
+<li>并发容器ConcurrentHashMap原<br>理讲解</li>
+<li>并发工具类(CountDown￾Latch,Semaphore,CyclicBarrier,Ex￾changer)的使用</li>
+<li>Properties的用法</li>
+<li>内存操作流的使用</li>
+<li>RandomAccessFile使用</li>
+<li>SequenceInputStream的使用</li>
+<li>压缩流/解压缩流</li>
+</ol>
+<p>07/08<br>07、网络编程 10、基础加强</p>
+<ol>
+<li>网络编程的概述</li>
+<li>网络编程的三要素之ip地址(ipv4,ipv6)</li>
+<li>InetAddress类的操作</li>
+<li>网络编程的三要素之端口和协议的详<br>细解释</li>
+<li>网络参考模型</li>
+<li>UDP协议发送与接收数据</li>
+<li>聊天小程序案例</li>
+<li>UDP协议中广播与组播</li>
+<li>TCP协议发送与接收数据</li>
+<li>多线程下文件的上传</li>
+<li>NIO概述</li>
+<li>NIO之Buffer的使用</li>
+<li>NIO之Channel的使用</li>
+<li>NIO之Selector的使用</li>
+<li>自定义非阻塞式的HTTP静态服务器<br>08、Lambda</li>
+<li>Lambda表达式的标准写法</li>
+<li>Lambda的省略规则</li>
+<li>Lambda和匿名内部类的区别</li>
+<li>JDK8和9对接口组成的更新</li>
+<li>方法引用的介绍</li>
+<li>Stream流的中间操作</li>
+<li>Stream流的终结操作</li>
+<li>Stream流的收集操作<br>09、反射</li>
+<li>虚拟机类加载机制(概述，类加载过<br>程，类的初始化时机)</li>
+<li>类加载器(概述，分类，双亲委派机<br>制，ClassLoader类，自定义类加载)</li>
+<li>反射机制的概述</li>
+<li>获取Class类的对象</li>
+<li>反射获取构造方法并使用</li>
+<li>反射获取成员方法并使用</li>
+<li>反射获取成员变量并使用</li>
+<li>自定义非阻塞式的HTTP动态服务器</li>
+</ol>
+<h1 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h1><p>Maven高级</p>
+<ol>
+<li>pom文件依赖传递介绍</li>
+<li>依赖冲突的解决</li>
+<li>Maven项目继承的关系</li>
+<li>Maven项目聚合的关系</li>
+<li>分模块搭建聚合项目</li>
+<li>私服仓库介绍和搭建</li>
+<li>本地资源上传到私服</li>
+<li>从私服下载资源到本地</li>
+<li>安装第三方资源到本地仓库</li>
+<li>安装第三方资源到私服仓库</li>
+<li>Maven多环境开发</li>
+<li>单元测试</li>
+<li>自定义插件</li>
+</ol>
+<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><ol>
+<li>Git概述和特点</li>
+<li>Git的下载安装</li>
+<li>Git基本概念</li>
+<li>Git操作入门</li>
+<li>Git历史版本控制</li>
+<li>Git分支版本控制</li>
+<li>Git远程仓库的操作</li>
+<li>Git远程托管平台应用(GitHub,码云)</li>
+<li>Git解决冲突</li>
+<li>IDEA中集成Git应用</li>
+<li>Git常用操作命令</li>
+</ol>
+<h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><ol>
+<li>Git概述和特点</li>
+<li>数据库的概念</li>
+<li>常见的数据库软件</li>
+<li>MySQL数据库的安装卸载</li>
+<li>MySQL数据库的登录退出</li>
+<li>MySQL的目录结构</li>
+<li>SQL语句的分类</li>
+</ol>
+<h1 id="spring"><a href="#spring" class="headerlink" title="spring"></a>spring</h1><p>1.框架简介<br>2.Spring概述<br>3.耦合与解耦<br>4.工厂设计模式<br>5.IoC概述及作用<br>6.Spring基于XML的IoC配置入门<br>7.Spring基于XML的IoC配置详解<br>8.依赖注入的概念<br>9.Spring中的依赖注入<br>10.Spring中多配置文件配置及问题分析<br>11.Spring基于XML和Mybatis的整合<br>12.Spring基于注解的IoC配置<br>13.常用注解的使用<br>14.Spring整合Junit<br>15.Spring高级分析之-IoC容器说明<br>16.Spring高级分析之-组件扫描器TypeFilter<br>17.Spring高级分析之-Import注解和自<br>定义导入器<br>18.Spring高级分析之-BeanFactoryPostProcessor<br>19.Spring高级分析之-BeanPostProcessor<br>20.Spring高级分析之-InitializingBean<br>21.Spring高级分析之-FactoryBean<br>22.AOP编程思想，作用，优势及实现原<br>理分析<br>23.代理模式和动态代理实现AOP思想的<br>案例<br>24.Spring中的AOP简介和常用术语<br>25.Spring基于XML的AOP配置<br>26.5种通知类型分析<br>27.切入点表达式详解<br>28.Spring基于注解的AOP配置<br>29.Spring中AOP的高级分析之-EnableAspectjAutoProxy注解的解析分析<br>30.Spring中AOP的运行期增强的执行过<br>程分析<br>31.Spring中事务的API详解<br>32.Spring基于XML的事务配置<br>33.Spring基于注解的事务配置<br>34.Spring事务高级分析之-TransactionTemplate源码分析<br>35.Spring事务高级分析之-DataSourceUtils源码分析<br>36.Spring事务高级分析之-TransactionSynchronizationManager源码分析<br>37.Spring事务高级分析之-TransactionEventListener注解的加载过程分析<br>38.Spring中的模板对象介绍<br>39.JdbcTemplate和NamedParameterJdbcTemplate的使用<br>40.RedisTemplate的使用<br>41.Spring事务设计的设计模式分析</p>
+<h1 id="springMVC"><a href="#springMVC" class="headerlink" title="springMVC"></a>springMVC</h1><p>1.SpringMVC概述<br>2.SpringMVC基于XML的环境搭建<br>3.SpringMVC基于Servlet3.0规范的纯注解环境搭建<br>4.纯注解环境搭建的入门案例执行过程分析<br>5.SpringMVC常用组件介绍<br>6.SpringMVC的 @RequestMapping注解详解<br>7.SpringMVC中的请求参数封装<br>8.SpringMVC中的表单校验相关注解<br>9.SpringMVC中和ServletAPI相关的注解使用详解<br>10.SpringMVC中控制器方法的返回值详解<br>11.SpringMVC中的异步交互和相关注解介绍<br>12.Rest风格URL详解<br>13.@PathVariable注解详解<br>14.Postman工具<br>15.跨域访问详解和 @CrossOrigin注解<br>的使用<br>16.SpringMVC中的请求参数封装源码<br>分析和运用的设计模式介绍<br>17.SpringMVC中的父子容器<br>18.SpringMVC中的异常处理<br>19.SpringMVC中的拦截器使用<br>20.SpringMVC中的文件上传<br>21.Spring SpringMVC Mybatis的整合</p>
+<h1 id="mybatis"><a href="#mybatis" class="headerlink" title="mybatis"></a>mybatis</h1><p>1.Mybatis-Plus简介<br>2.Mybatis-Plus快速入门<br>3.Mybatis-Plus通用CRUD<br>4.Mybatis-Plus条件构造器<br>5.Mybatis-Plus的Service封装<br>6.Mybatis-Plus代码生成器</p>
+<h1 id="springboot"><a href="#springboot" class="headerlink" title="springboot"></a>springboot</h1><ol>
+<li>SpringBoot介绍</li>
+<li>SpringBoot的核心功能</li>
+<li>SpringBoot的优势</li>
+<li>SpringBoot入门程序</li>
+<li>起步依赖原理分析</li>
+<li>自动配置原理解析</li>
+<li>自定义起步依赖并实现自动配置</li>
+<li>SpringBoot配置文件类型</li>
+<li>配置文件与配置类的属性映射方式</li>
+<li>SpringBoot整合Mybatis</li>
+<li>SpringBoot整合Junit</li>
+<li>SpringBoot整合Redis</li>
+<li>自定义Starter</li>
+<li>事件监听</li>
+<li>初始化流程</li>
+</ol>
 
       
 
@@ -216,7 +551,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">java路线</a>
         		</li>
       		
 		</ul>
@@ -226,7 +561,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/07/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2021/05/27/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E4%B8%8E%E6%80%BB%E7%BB%93/">展开全文 >></a>
         </p>
       
 
@@ -669,80 +1004,6 @@
 
 
   
-    <article id="post-my java&#39;s root day2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/03/24/my%20java's%20root%20day2/">my java&#39;s root day2</a>
-    </h1>
-  
-
-        <!--显示阅读次数-->
-
-<!--显示阅读次数完毕-->
-        
-        <a href="/2021/03/24/my%20java's%20root%20day2/" class="archive-article-date">
-  	<time datetime="2021-03-24T13:38:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="my-java’s-root-day2"><a href="#my-java’s-root-day2" class="headerlink" title="my java’s root day2"></a>my java’s root day2</h1><h2 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1.标识符"></a>1.标识符</h2><p>小驼峰命名法：针对于方法和变量      一个单词时：首字母小写  多个单词时：首字母小写，其他单词首字母大写<br>大驼峰命名法：针对于类            一个单词首字母大写，多个单词首字母大写</p>
-<h2 id="2-类型转换"><a href="#2-类型转换" class="headerlink" title="2.类型转换"></a>2.类型转换</h2><p>自动类型转换： 范围从小到大都可以<br>强制类型转换： 把范围大的数转化为范围小的数<br> 目标数据类型  变量名  =  （目标数据类型）值或变量；<br> int k = (int)88.88;</p>
-<h2 id="3-数据输入"><a href="#3-数据输入" class="headerlink" title="3.数据输入:"></a>3.数据输入:</h2><p>3.1导包：import java.util.Scanner;<br>3.2创建对象：Scanner sc = new Scanner(System.in);<br>3.3接收数据：int x = sc.nextInt();</p>
-<h2 id="4-random"><a href="#4-random" class="headerlink" title="4.random"></a>4.random</h2><p>4.1导包:  import java.util.Random;<br>4.2创建对象:  Random r = new Random();<br>4.3接受数据:  int number = r.nextInt(10);//获取数据的范围，从0到9</p>
-<h2 id="5-IDEA中编写一个程序"><a href="#5-IDEA中编写一个程序" class="headerlink" title="5.IDEA中编写一个程序"></a>5.IDEA中编写一个程序</h2><p>5.1创建一个空项目<br>5.2创建一个空模块<br>5.3在idea_test模块下的src下创建一个包<br>5.4在com.itheima包下新建一个类<br>5.5在HelloWorld中编写代码<br>5.6在idea中执行程序</p>
-<h2 id="6-idea内容辅助和快捷键"><a href="#6-idea内容辅助和快捷键" class="headerlink" title="6.idea内容辅助和快捷键"></a>6.idea内容辅助和快捷键</h2><p>6.1快速生成main方法：psvm+回车<br>6.2快速生成输出语句： sout+回车<br>6.3内容提示，代码补全; ctrl+alt+空格</p>
-<h2 id="6-4快捷键："><a href="#6-4快捷键：" class="headerlink" title="6.4快捷键："></a>6.4快捷键：</h2><p>注释：单行注释选中内容  Ctrl+/，再按一次就是取消<br>      多行注释选中内容  Ctrl+shift+/，再按一次就是取消</p>
-<p>格式化： Ctrl+Alt+L</p>
-<h2 id="7-数组的定义"><a href="#7-数组的定义" class="headerlink" title="7.数组的定义"></a>7.数组的定义</h2><p>int[] arr = new int[3];<br>左边：一个名为arr的int类型的数组<br>右边：申请数组长度为3的int类型的数组</p>
-<h2 id="8-idea编程，参看idea项目"><a href="#8-idea编程，参看idea项目" class="headerlink" title="8.idea编程，参看idea项目"></a>8.idea编程，参看idea项目</h2>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/03/24/my%20java's%20root%20day2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-my-java-s-root day1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -820,6 +1081,80 @@
 
 
   
+    <article id="post-my java&#39;s root day2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/03/24/my%20java's%20root%20day2/">my java&#39;s root day2</a>
+    </h1>
+  
+
+        <!--显示阅读次数-->
+
+<!--显示阅读次数完毕-->
+        
+        <a href="/2021/03/24/my%20java's%20root%20day2/" class="archive-article-date">
+  	<time datetime="2021-03-24T13:38:02.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="my-java’s-root-day2"><a href="#my-java’s-root-day2" class="headerlink" title="my java’s root day2"></a>my java’s root day2</h1><h2 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1.标识符"></a>1.标识符</h2><p>小驼峰命名法：针对于方法和变量      一个单词时：首字母小写  多个单词时：首字母小写，其他单词首字母大写<br>大驼峰命名法：针对于类            一个单词首字母大写，多个单词首字母大写</p>
+<h2 id="2-类型转换"><a href="#2-类型转换" class="headerlink" title="2.类型转换"></a>2.类型转换</h2><p>自动类型转换： 范围从小到大都可以<br>强制类型转换： 把范围大的数转化为范围小的数<br> 目标数据类型  变量名  =  （目标数据类型）值或变量；<br> int k = (int)88.88;</p>
+<h2 id="3-数据输入"><a href="#3-数据输入" class="headerlink" title="3.数据输入:"></a>3.数据输入:</h2><p>3.1导包：import java.util.Scanner;<br>3.2创建对象：Scanner sc = new Scanner(System.in);<br>3.3接收数据：int x = sc.nextInt();</p>
+<h2 id="4-random"><a href="#4-random" class="headerlink" title="4.random"></a>4.random</h2><p>4.1导包:  import java.util.Random;<br>4.2创建对象:  Random r = new Random();<br>4.3接受数据:  int number = r.nextInt(10);//获取数据的范围，从0到9</p>
+<h2 id="5-IDEA中编写一个程序"><a href="#5-IDEA中编写一个程序" class="headerlink" title="5.IDEA中编写一个程序"></a>5.IDEA中编写一个程序</h2><p>5.1创建一个空项目<br>5.2创建一个空模块<br>5.3在idea_test模块下的src下创建一个包<br>5.4在com.itheima包下新建一个类<br>5.5在HelloWorld中编写代码<br>5.6在idea中执行程序</p>
+<h2 id="6-idea内容辅助和快捷键"><a href="#6-idea内容辅助和快捷键" class="headerlink" title="6.idea内容辅助和快捷键"></a>6.idea内容辅助和快捷键</h2><p>6.1快速生成main方法：psvm+回车<br>6.2快速生成输出语句： sout+回车<br>6.3内容提示，代码补全; ctrl+alt+空格</p>
+<h2 id="6-4快捷键："><a href="#6-4快捷键：" class="headerlink" title="6.4快捷键："></a>6.4快捷键：</h2><p>注释：单行注释选中内容  Ctrl+/，再按一次就是取消<br>      多行注释选中内容  Ctrl+shift+/，再按一次就是取消</p>
+<p>格式化： Ctrl+Alt+L</p>
+<h2 id="7-数组的定义"><a href="#7-数组的定义" class="headerlink" title="7.数组的定义"></a>7.数组的定义</h2><p>int[] arr = new int[3];<br>左边：一个名为arr的int类型的数组<br>右边：申请数组长度为3的int类型的数组</p>
+<h2 id="8-idea编程，参看idea项目"><a href="#8-idea编程，参看idea项目" class="headerlink" title="8.idea编程，参看idea项目"></a>8.idea编程，参看idea项目</h2>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/24/my%20java's%20root%20day2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-我的第一篇博客文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -859,6 +1194,95 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2021/03/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/03/07/hello-world/">Hello World</a>
+    </h1>
+  
+
+        <!--显示阅读次数-->
+
+<!--显示阅读次数完毕-->
+        
+        <a href="/2021/03/07/hello-world/" class="archive-article-date">
+  	<time datetime="2021-03-07T14:47:58.922Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/03/07/hello-world/">展开全文 >></a>
         </p>
       
 
@@ -987,6 +1411,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">java路线</a>
               </li>
              
               <li class="article-tag-list-item">
